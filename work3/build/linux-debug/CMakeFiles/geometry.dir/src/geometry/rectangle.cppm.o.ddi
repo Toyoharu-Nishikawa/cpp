@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/geometry.dir/src/geometry/rectangle.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "geometry.rectangle",
+          "source-path": "/work/src/geometry/rectangle.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,9 @@
+# ninja log v7
+2	51	1786636097250590025	CMakeFiles/vehicle_models.dir/vehicles/simple_drone.cpp.obj	a8916723a2e2df19
+1	53	1786636097246590028	CMakeFiles/vehicle_models.dir/vehicles/car.cpp.obj	a6b659477a3c6261
+3	618	1786638204986486588	CMakeFiles/simulator_core.dir/src/simulator.cpp.obj	1426be46a11a6713
+2	455	1786636097250590025	CMakeFiles/vehicle_simulator.dir/app/main.cpp.obj	9c5e2d19312fc16d
+442	509	1786636097690589508	libsimulator_core.a	248d509558f91680
+509	563	1786636097754589431	libvehicle_models.a	69dab9ce912490c9
+563	610	1786636097810589366	vehicle_simulator.exe	89ff4779aacc2f19
+2	392	1786638293169465633	libsimulator_core.a	248d509558f91680

@@ -1,0 +1,9 @@
+services:
+  cpp:
+    build: .
+    working_dir: /work
+    volumes: 
+#      - ./work:/work
+      - ./work3:/work
+#    command: tail -f /dev/null
+    tty: true

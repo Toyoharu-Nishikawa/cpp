@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/work/build/windows/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

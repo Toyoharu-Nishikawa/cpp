@@ -1,0 +1,5 @@
+Rectangle.Area 2 0.00166742
+Rectangle.ZeroWidth 1 0.00315604
+Rectangle.ZeroHeight 1 0.00314223
+Rectangle.OneByOne 1 0.0031552
+---

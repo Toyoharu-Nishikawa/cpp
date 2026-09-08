@@ -1,0 +1,5 @@
+/work/build/windows/CMakeFiles/simulator_core.dir
+/work/build/windows/CMakeFiles/vehicle_models.dir
+/work/build/windows/CMakeFiles/vehicle_simulator.dir
+/work/build/windows/CMakeFiles/edit_cache.dir
+/work/build/windows/CMakeFiles/rebuild_cache.dir

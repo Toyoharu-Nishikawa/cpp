@@ -1,0 +1,32 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Rectangle",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "Area",
+          "file": "\/work\/tests\/rectangle_test.cpp",
+          "line": 5
+        },
+        {
+          "name": "ZeroWidth",
+          "file": "\/work\/tests\/rectangle_test.cpp",
+          "line": 12
+        },
+        {
+          "name": "ZeroHeight",
+          "file": "\/work\/tests\/rectangle_test.cpp",
+          "line": 19
+        },
+        {
+          "name": "OneByOne",
+          "file": "\/work\/tests\/rectangle_test.cpp",
+          "line": 26
+        }
+      ]
+    }
+  ]
+}

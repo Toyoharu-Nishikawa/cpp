@@ -1,0 +1,42 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/geometry.dir/src/geometry/rectangle.cppm.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : "src/geometry",
+			"source" : "/work/src/geometry/rectangle.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/work/build/linux-debug",
+	"dir-cur-src" : "/work",
+	"dir-top-bld" : "/work/build/linux-debug",
+	"dir-top-src" : "/work",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/work/build/linux-debug/CMakeFiles/__cmake_cxx23.dir"
+	],
+	"module-dir" : "/work/build/linux-debug/CMakeFiles/geometry.dir",
+	"sources" : 
+	{
+		"CMakeFiles/geometry.dir/src/geometry/rectangle.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/work/src/geometry/rectangle.cpp"
+		}
+	}
+}

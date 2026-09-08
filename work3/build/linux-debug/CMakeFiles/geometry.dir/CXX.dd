@@ -1,0 +1,6 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/geometry.dir/src/geometry/rectangle.cpp.o: dyndep | CMakeFiles/geometry.dir/geometry.rectangle.pcm
+
+build CMakeFiles/geometry.dir/src/geometry/rectangle.cppm.o | CMakeFiles/geometry.dir/geometry.rectangle.pcm: dyndep
+  restat = 1
+

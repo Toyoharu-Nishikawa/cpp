@@ -1,0 +1,28 @@
+{
+	"modules" : {},
+	"references" : 
+	{
+		"geometry.rectangle" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/geometry.dir/geometry.rectangle.pcm"
+		},
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/__cmake_cxx23.dir/std.pcm"
+		},
+		"std.compat" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/__cmake_cxx23.dir/std.compat.pcm"
+		}
+	},
+	"usages" : 
+	{
+		"std.compat" : 
+		[
+			"std"
+		]
+	}
+}
