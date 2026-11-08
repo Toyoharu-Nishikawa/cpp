@@ -1,0 +1,52 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "linux-debug",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/linux/debug",
+            "toolchainFile": "${sourceDir}/build/linux/debug/conan_toolchain.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "linux-release",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/linux/release",
+            "toolchainFile": "${sourceDir}/build/debug/linux/conan_toolchain.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "windows-release",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/windows/release",
+            "toolchainFile": "${sourceDir}/cmake/mingw-w64-x86_64.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "linux-debug",
+            "configurePreset": "linux-debug"
+        },
+        {
+            "name": "linux-release",
+            "configurePreset": "linux-release"
+        },
+        {
+            "name": "windows-release",
+            "configurePreset": "windows-release"
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "linux-debug",
+            "configurePreset": "linux-debug"
+        }
+    ]
+}

@@ -1,9 +1,11 @@
 services:
   cpp:
-    build: .
+    image: c-dev-img-cpp:latest
+    user: "${ENV_UID}:${ENV_GID}"
     working_dir: /work
     volumes: 
 #      - ./work:/work
-      - ./work3:/work
+#      - ./work3:/work
+      - ./work4:/work
 #    command: tail -f /dev/null
     tty: true

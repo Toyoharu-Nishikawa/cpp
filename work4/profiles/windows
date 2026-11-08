@@ -1,0 +1,10 @@
+[settings]
+os=Windows
+arch=x86_64
+compiler=gcc
+compiler.version=13
+compiler.cppstd=23
+compiler.libcxx=libstdc++11
+
+[tool_requires]
+mingw-builds/12.2.0

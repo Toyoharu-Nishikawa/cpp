@@ -1,7 +1,8 @@
-#sudo rm -rf work3/build
-docker compose exec cpp cmake --preset linux-debug
-docker compose exec cpp cmake --build --preset linux-debug
-docker compose exec cpp ctest --preset linux-debug
+export ENV_UID=$(id -u)
+export ENV_GID=$(id -g)
+docker compose run --rm cpp cmake --preset linux-debug
+docker compose run --rm cpp cmake --build --preset linux-debug
+#docker compose run --rm cpp ctest --preset linux-debug
 
 
 
